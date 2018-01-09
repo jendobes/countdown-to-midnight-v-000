@@ -1,5 +1,5 @@
 #write your code here
-require 'pry'
+
 def countdown(integer)
   while integer > 0
     puts "#{integer} SECOND(S)!"
@@ -7,7 +7,8 @@ def countdown(integer)
   end
   return "HAPPY NEW YEAR!"
 end
-binding.pry
-def countdown_with_sleep(number)
 
-end
+countdown(10)
+#def countdown_with_sleep(number)
+
+#end
